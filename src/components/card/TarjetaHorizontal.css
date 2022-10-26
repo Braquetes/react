@@ -2,21 +2,33 @@
     display: flex;
     min-width: 100vh;
     background-color: #11FF84;
+    border: 1px solid black;
+    margin: auto;
 }
 
 .imagen-rb {
-    min-width: 150px;
-    max-width: 150px;
+    max-width: 250px;
+    min-height: 250px;
+    background-size: cover;
 }
 
 .nombre {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+}
+
+.descripcion {
+    display: flex;
+    justify-content: center;
     font-size: 1.5rem;
 }
 
+.texto {
+    font-size: 1rem;
+}
+
 .container-texto {
-    display: flex;
-    padding-left: 25vh;
-    padding-top: 5vh;
-    justify-content: flex-end;
-    align-items: flex-start;
+    display: block;
+    padding: 50px;
 }
