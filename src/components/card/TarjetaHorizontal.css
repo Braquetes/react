@@ -1,14 +1,14 @@
 .contenedor {
     display: flex;
     min-width: 100vh;
-    background-color: #11FF84;
+    background-color: #0c0c0c;
     border: 1px solid black;
     margin: auto;
 }
 
 .imagen-rb {
-    max-width: 250px;
-    min-height: 250px;
+    max-width: 500px;
+    min-height: 500px;
     background-size: cover;
 }
 
@@ -31,4 +31,5 @@
 .container-texto {
     display: block;
     padding: 50px;
+    color: whitesmoke;
 }

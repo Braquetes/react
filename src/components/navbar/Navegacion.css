@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    background-color: black;
+    position: fixed;
+    min-width: 100%;
+}
+
+.lista ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-item a {
+    font-size: 1.5rem;
+    color: aqua;
+    text-decoration: none;
+    font-weight: 500;
+    content: '-';
+    padding: 0 3px;
+}
+
