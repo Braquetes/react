@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 50%;
+}
+
+
+.contenedor-card {
+  /* width: 100%; */
+  display: flex;
+  min-width: 100vh;
+  margin: auto;
+  padding: 20px;
+}
+
+.contenedor-card-verde {
+  width: 100%;
+  display: flex;
+  min-width: 100vh;
+  background-color: rgb(0, 75, 53);
+  margin: auto;
+  color: white;
+}
+
+.contenedor-card-verde-p {
+  /* width: %; */
+  display: flex;
+  padding: 10px;
+  min-width: 100vh;
+  background-color: rgb(0, 75, 53);
+  margin: auto;
+  color: white;
+}
+
+p {
+  font-size: large;
+}
+
+.imagen-rb {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  padding-left: 70vh;
+  padding-top: 20px;
+}
+
+.nombre {
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  color: rgb(255, 178, 11);
+}
+
+.amarillo {
+  color: yellow;
+}
