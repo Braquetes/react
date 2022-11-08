@@ -1,0 +1,17 @@
+{
+    "background-color": "#fff",
+    "categorias": ["educacion"],
+    "description": "Aplicación escolar xd",
+    "dir": "ltr",
+    "display": ["standlone","fullscreen"],
+    "icons": {
+        "size": "24x24",
+        "src" : "logo.svg",
+        "type": "svg",
+        "purpose": "logo"
+    },
+    "id": "/components",
+    "lenguaje": "es-MX",
+    "nombre": "BraKeznit WEB",
+    "start_url": "/welcome"
+}

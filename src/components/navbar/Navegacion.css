@@ -1,7 +1,7 @@
 nav {
     display: flex;
     background-color: black;
-    position: fixed;
+    /* position: fixed; */
     min-width: 100%;
 }
 
